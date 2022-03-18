@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>plugin-base demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="package-installer.umd.js"></script>
+
+<link rel="stylesheet" href="./package-installer.css">
+
+
+<div id="app">
+  <package-installer></package-installer>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: plugin-base
+  }
+}).$mount('#app')
+</script>
