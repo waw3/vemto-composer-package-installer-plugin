@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "id": "app.vemto.package-installer",
+    "id": "sunshine.vemto.package-installer",
     "name": "package-installer",
     "title": "Package Installer",
     "description": "This plugin helps you install Laravel packages in Vemto.",
@@ -9,7 +9,7 @@
     "vueComponent": "dist/package-installer.umd.min.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/TiagoSilvaPereira/vemto-plugin-base"
+        "url": "https://github.com/coding-sunshine/vemto-package-installer-plugin"
     },
     "minVemtoVersion": "1.0.0"
 }
